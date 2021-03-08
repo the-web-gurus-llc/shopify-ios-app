@@ -1,0 +1,881 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD256C3D23283D1E003EA03E /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD256C3C23283D1E003EA03E /* ImageCollectionViewCell.swift */; };
+		BD7909A02325B8D0005729D0 /* jewelryPearlSurfaceDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909852325B8CC005729D0 /* jewelryPearlSurfaceDD.txt */; };
+		BD7909A12325B8D0005729D0 /* jewelryPearlBodyDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909862325B8CC005729D0 /* jewelryPearlBodyDD.txt */; };
+		BD7909A22325B8D0005729D0 /* mainStoneCreationDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909872325B8CD005729D0 /* mainStoneCreationDD.txt */; };
+		BD7909A32325B8D0005729D0 /* centerPearlSizeDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909882325B8CD005729D0 /* centerPearlSizeDD.txt */; };
+		BD7909A42325B8D0005729D0 /* jewelryPearlNacreThickness.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909892325B8CD005729D0 /* jewelryPearlNacreThickness.txt */; };
+		BD7909A52325B8D0005729D0 /* metalDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79098A2325B8CD005729D0 /* metalDD.txt */; };
+		BD7909A62325B8D0005729D0 /* jewelryUniformityDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79098B2325B8CD005729D0 /* jewelryUniformityDD.txt */; };
+		BD7909A72325B8D0005729D0 /* jewelryPearlOverDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79098C2325B8CD005729D0 /* jewelryPearlOverDD.txt */; };
+		BD7909A82325B8D0005729D0 /* sideStoneColorDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79098D2325B8CD005729D0 /* sideStoneColorDD.txt */; };
+		BD7909A92325B8D0005729D0 /* ringStyleDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79098E2325B8CE005729D0 /* ringStyleDD.txt */; };
+		BD7909AA2325B8D0005729D0 /* jewelryPearlLusterDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79098F2325B8CE005729D0 /* jewelryPearlLusterDD.txt */; };
+		BD7909AB2325B8D0005729D0 /* mainStoneClarityDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909902325B8CE005729D0 /* mainStoneClarityDD.txt */; };
+		BD7909AC2325B8D0005729D0 /* ringResizableDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909912325B8CE005729D0 /* ringResizableDD.txt */; };
+		BD7909AD2325B8D0005729D0 /* mainStoneCutDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909922325B8CE005729D0 /* mainStoneCutDD.txt */; };
+		BD7909AE2325B8D0005729D0 /* sideStoneCreationDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909932325B8CE005729D0 /* sideStoneCreationDD.txt */; };
+		BD7909AF2325B8D0005729D0 /* sideStonesDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909942325B8CE005729D0 /* sideStonesDD.txt */; };
+		BD7909B02325B8D0005729D0 /* sideStoneClarityDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909952325B8CF005729D0 /* sideStoneClarityDD.txt */; };
+		BD7909B12325B8D0005729D0 /* ringSizeDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909962325B8CF005729D0 /* ringSizeDD.txt */; };
+		BD7909B22325B8D0005729D0 /* mainStoneDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909972325B8CF005729D0 /* mainStoneDD.txt */; };
+		BD7909B32325B8D0005729D0 /* jewelryPearlShapeDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909982325B8CF005729D0 /* jewelryPearlShapeDD.txt */; };
+		BD7909B42325B8D0005729D0 /* metalStampDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909992325B8CF005729D0 /* metalStampDD.txt */; };
+		BD7909B52325B8D0005729D0 /* sideStoneCutDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79099A2325B8CF005729D0 /* sideStoneCutDD.txt */; };
+		BD7909B62325B8D0005729D0 /* labDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79099B2325B8CF005729D0 /* labDD.txt */; };
+		BD7909B72325B8D0005729D0 /* appraisalIncludedDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79099C2325B8D0005729D0 /* appraisalIncludedDD.txt */; };
+		BD7909B82325B8D0005729D0 /* mainStoneCutQualityDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79099D2325B8D0005729D0 /* mainStoneCutQualityDD.txt */; };
+		BD7909B92325B8D0005729D0 /* mainStoneColorDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79099E2325B8D0005729D0 /* mainStoneColorDD.txt */; };
+		BD7909BA2325B8D0005729D0 /* ringGenderDD.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD79099F2325B8D0005729D0 /* ringGenderDD.txt */; };
+		BD7909C22325BE49005729D0 /* engagementset_subring.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909BC2325BE48005729D0 /* engagementset_subring.txt */; };
+		BD7909C32325BE49005729D0 /* engagement_subring.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909BD2325BE48005729D0 /* engagement_subring.txt */; };
+		BD7909C42325BE49005729D0 /* mensring_subring.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909BE2325BE48005729D0 /* mensring_subring.txt */; };
+		BD7909C52325BE49005729D0 /* colorstone_subring.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909BF2325BE48005729D0 /* colorstone_subring.txt */; };
+		BD7909C62325BE49005729D0 /* fancy_subring.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909C02325BE48005729D0 /* fancy_subring.txt */; };
+		BD7909C72325BE49005729D0 /* weddingbandset_subring.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7909C12325BE49005729D0 /* weddingbandset_subring.txt */; };
+		BD7C4F5F232500C30064562B /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C4F5E232500C30064562B /* DefaultViewController.swift */; };
+		BD7C4F61232538980064562B /* BraceletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C4F60232538980064562B /* BraceletViewController.swift */; };
+		BD7C4F6323253BA70064562B /* RingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C4F6223253BA70064562B /* RingViewController.swift */; };
+		BD7C4F6623253EB10064562B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C4F6523253EB10064562B /* Helper.swift */; };
+		BD7C4F6A2325414A0064562B /* metal.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F692325414A0064562B /* metal.txt */; };
+		BD7C4F6C232544040064562B /* metalfinish.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F6B232544040064562B /* metalfinish.txt */; };
+		BD7C4F6E2325445E0064562B /* mainstoneshape.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F6D2325445D0064562B /* mainstoneshape.txt */; };
+		BD7C4F70232544EF0064562B /* sidestoneshape.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F6F232544EF0064562B /* sidestoneshape.txt */; };
+		BD7C4F7223255A840064562B /* UIImage+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C4F7123255A840064562B /* UIImage+extension.swift */; };
+		BD7C4F8F232584E80064562B /* jewelryPearlNacreThicknessSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F74232584E40064562B /* jewelryPearlNacreThicknessSpin.txt */; };
+		BD7C4F90232584E80064562B /* centerPearlSizeSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F75232584E50064562B /* centerPearlSizeSpin.txt */; };
+		BD7C4F91232584E80064562B /* jewelryPearlShapeSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F76232584E50064562B /* jewelryPearlShapeSpin.txt */; };
+		BD7C4F92232584E80064562B /* sideStoneClaritySpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F77232584E50064562B /* sideStoneClaritySpin.txt */; };
+		BD7C4F93232584E80064562B /* jewelryUniformitySpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F78232584E50064562B /* jewelryUniformitySpin.txt */; };
+		BD7C4F94232584E80064562B /* mainStoneCreationSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F79232584E50064562B /* mainStoneCreationSpin.txt */; };
+		BD7C4F95232584E80064562B /* mainStoneCutSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F7A232584E50064562B /* mainStoneCutSpin.txt */; };
+		BD7C4F96232584E80064562B /* sideStoneColorSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F7B232584E50064562B /* sideStoneColorSpin.txt */; };
+		BD7C4F97232584E80064562B /* labSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F7C232584E60064562B /* labSpin.txt */; };
+		BD7C4F98232584E80064562B /* jewelryPearlBodyColorSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F7D232584E60064562B /* jewelryPearlBodyColorSpin.txt */; };
+		BD7C4F99232584E80064562B /* mainStoneClaritySpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F7E232584E60064562B /* mainStoneClaritySpin.txt */; };
+		BD7C4F9A232584E80064562B /* jewelryPearlOvertoneSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F7F232584E60064562B /* jewelryPearlOvertoneSpin.txt */; };
+		BD7C4F9B232584E80064562B /* jewelryPearlLusterSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F80232584E60064562B /* jewelryPearlLusterSpin.txt */; };
+		BD7C4F9C232584E80064562B /* mainStoneSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F81232584E60064562B /* mainStoneSpin.txt */; };
+		BD7C4F9D232584E80064562B /* mainStoneColorSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F82232584E70064562B /* mainStoneColorSpin.txt */; };
+		BD7C4F9E232584E80064562B /* jewelryPearlSurfaceMarkingsSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F83232584E70064562B /* jewelryPearlSurfaceMarkingsSpin.txt */; };
+		BD7C4F9F232584E80064562B /* appraisalIncludeSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F84232584E70064562B /* appraisalIncludeSpin.txt */; };
+		BD7C4FA0232584E80064562B /* braceletTypeSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F85232584E70064562B /* braceletTypeSpin.txt */; };
+		BD7C4FA1232584E80064562B /* metalSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F86232584E70064562B /* metalSpin.txt */; };
+		BD7C4FA2232584E80064562B /* mainStoneCutQualitySpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F87232584E70064562B /* mainStoneCutQualitySpin.txt */; };
+		BD7C4FA3232584E80064562B /* metalStampSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F88232584E70064562B /* metalStampSpin.txt */; };
+		BD7C4FA4232584E80064562B /* sideStoneCreationSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F89232584E80064562B /* sideStoneCreationSpin.txt */; };
+		BD7C4FA5232584E80064562B /* sideStoneCutSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F8A232584E80064562B /* sideStoneCutSpin.txt */; };
+		BD7C4FA6232584E80064562B /* lengthInInchesSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F8B232584E80064562B /* lengthInInchesSpin.txt */; };
+		BD7C4FA7232584E80064562B /* braceletResizableSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F8C232584E80064562B /* braceletResizableSpin.txt */; };
+		BD7C4FA8232584E80064562B /* sideStonesSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F8D232584E80064562B /* sideStonesSpin.txt */; };
+		BD7C4FA9232584E80064562B /* braceletGenderSpin.txt in Resources */ = {isa = PBXBuildFile; fileRef = BD7C4F8E232584E80064562B /* braceletGenderSpin.txt */; };
+		BD958DBB232280C1001C5356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DBA232280C1001C5356 /* AppDelegate.swift */; };
+		BD958DBD232280C1001C5356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DBC232280C1001C5356 /* ViewController.swift */; };
+		BD958DC0232280C1001C5356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD958DBE232280C1001C5356 /* Main.storyboard */; };
+		BD958DC2232280C3001C5356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD958DC1232280C3001C5356 /* Assets.xcassets */; };
+		BD958DC5232280C3001C5356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD958DC3232280C3001C5356 /* LaunchScreen.storyboard */; };
+		BD958DCE232281E6001C5356 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DCD232281E6001C5356 /* SignInViewController.swift */; };
+		BD958DD123228EDC001C5356 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DD023228EDC001C5356 /* SignUpViewController.swift */; };
+		BD958DD423228F71001C5356 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DD323228F71001C5356 /* HomeViewController.swift */; };
+		BD958DD723229BAB001C5356 /* viewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DD623229BAB001C5356 /* viewController+extension.swift */; };
+		BD958DDA23229D6A001C5356 /* myAlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DD923229D6A001C5356 /* myAlertDialog.swift */; };
+		BD958DDC2322A02C001C5356 /* String+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DDB2322A02C001C5356 /* String+extension.swift */; };
+		BD958DDF2322AABA001C5356 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DDE2322AABA001C5356 /* Constants.swift */; };
+		BD958DE12322ACA3001C5356 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD958DE02322ACA2001C5356 /* GoogleService-Info.plist */; };
+		BD958DE32322B27A001C5356 /* UserDefaultStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DE22322B27A001C5356 /* UserDefaultStandard.swift */; };
+		BD958DE62322EE31001C5356 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DE52322EE31001C5356 /* Product.swift */; };
+		BD958DE82322F0B3001C5356 /* MyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DE72322F0B3001C5356 /* MyImage.swift */; };
+		BD958DEA2322F0C5001C5356 /* Variants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DE92322F0C5001C5356 /* Variants.swift */; };
+		BD958DED2322FAE0001C5356 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DEC2322FAE0001C5356 /* ProductTableViewCell.swift */; };
+		BD958DEF23231D8E001C5356 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DEE23231D8E001C5356 /* DetailViewController.swift */; };
+		BD958DF123232BE6001C5356 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD958DF023232BE6001C5356 /* AddProductViewController.swift */; };
+		D4F585CC2469752232246B68 /* Pods_ShopifyApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7541ED26DFCD42D7082E24A4 /* Pods_ShopifyApplication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		555EC8AF0C700F5CE9B3F7A1 /* Pods-ShopifyApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyApplication.release.xcconfig"; path = "Target Support Files/Pods-ShopifyApplication/Pods-ShopifyApplication.release.xcconfig"; sourceTree = "<group>"; };
+		7541ED26DFCD42D7082E24A4 /* Pods_ShopifyApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShopifyApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2B74A3E307AE21010A66148 /* Pods-ShopifyApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShopifyApplication.debug.xcconfig"; path = "Target Support Files/Pods-ShopifyApplication/Pods-ShopifyApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		BD256C3C23283D1E003EA03E /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		BD7909852325B8CC005729D0 /* jewelryPearlSurfaceDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlSurfaceDD.txt; sourceTree = "<group>"; };
+		BD7909862325B8CC005729D0 /* jewelryPearlBodyDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlBodyDD.txt; sourceTree = "<group>"; };
+		BD7909872325B8CD005729D0 /* mainStoneCreationDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneCreationDD.txt; sourceTree = "<group>"; };
+		BD7909882325B8CD005729D0 /* centerPearlSizeDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = centerPearlSizeDD.txt; sourceTree = "<group>"; };
+		BD7909892325B8CD005729D0 /* jewelryPearlNacreThickness.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlNacreThickness.txt; sourceTree = "<group>"; };
+		BD79098A2325B8CD005729D0 /* metalDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metalDD.txt; sourceTree = "<group>"; };
+		BD79098B2325B8CD005729D0 /* jewelryUniformityDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryUniformityDD.txt; sourceTree = "<group>"; };
+		BD79098C2325B8CD005729D0 /* jewelryPearlOverDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlOverDD.txt; sourceTree = "<group>"; };
+		BD79098D2325B8CD005729D0 /* sideStoneColorDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStoneColorDD.txt; sourceTree = "<group>"; };
+		BD79098E2325B8CE005729D0 /* ringStyleDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ringStyleDD.txt; sourceTree = "<group>"; };
+		BD79098F2325B8CE005729D0 /* jewelryPearlLusterDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlLusterDD.txt; sourceTree = "<group>"; };
+		BD7909902325B8CE005729D0 /* mainStoneClarityDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneClarityDD.txt; sourceTree = "<group>"; };
+		BD7909912325B8CE005729D0 /* ringResizableDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ringResizableDD.txt; sourceTree = "<group>"; };
+		BD7909922325B8CE005729D0 /* mainStoneCutDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneCutDD.txt; sourceTree = "<group>"; };
+		BD7909932325B8CE005729D0 /* sideStoneCreationDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStoneCreationDD.txt; sourceTree = "<group>"; };
+		BD7909942325B8CE005729D0 /* sideStonesDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStonesDD.txt; sourceTree = "<group>"; };
+		BD7909952325B8CF005729D0 /* sideStoneClarityDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStoneClarityDD.txt; sourceTree = "<group>"; };
+		BD7909962325B8CF005729D0 /* ringSizeDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ringSizeDD.txt; sourceTree = "<group>"; };
+		BD7909972325B8CF005729D0 /* mainStoneDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneDD.txt; sourceTree = "<group>"; };
+		BD7909982325B8CF005729D0 /* jewelryPearlShapeDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlShapeDD.txt; sourceTree = "<group>"; };
+		BD7909992325B8CF005729D0 /* metalStampDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metalStampDD.txt; sourceTree = "<group>"; };
+		BD79099A2325B8CF005729D0 /* sideStoneCutDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStoneCutDD.txt; sourceTree = "<group>"; };
+		BD79099B2325B8CF005729D0 /* labDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labDD.txt; sourceTree = "<group>"; };
+		BD79099C2325B8D0005729D0 /* appraisalIncludedDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = appraisalIncludedDD.txt; sourceTree = "<group>"; };
+		BD79099D2325B8D0005729D0 /* mainStoneCutQualityDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneCutQualityDD.txt; sourceTree = "<group>"; };
+		BD79099E2325B8D0005729D0 /* mainStoneColorDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneColorDD.txt; sourceTree = "<group>"; };
+		BD79099F2325B8D0005729D0 /* ringGenderDD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ringGenderDD.txt; sourceTree = "<group>"; };
+		BD7909BC2325BE48005729D0 /* engagementset_subring.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = engagementset_subring.txt; sourceTree = "<group>"; };
+		BD7909BD2325BE48005729D0 /* engagement_subring.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = engagement_subring.txt; sourceTree = "<group>"; };
+		BD7909BE2325BE48005729D0 /* mensring_subring.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mensring_subring.txt; sourceTree = "<group>"; };
+		BD7909BF2325BE48005729D0 /* colorstone_subring.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = colorstone_subring.txt; sourceTree = "<group>"; };
+		BD7909C02325BE48005729D0 /* fancy_subring.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fancy_subring.txt; sourceTree = "<group>"; };
+		BD7909C12325BE49005729D0 /* weddingbandset_subring.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weddingbandset_subring.txt; sourceTree = "<group>"; };
+		BD7C4F5E232500C30064562B /* DefaultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
+		BD7C4F60232538980064562B /* BraceletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BraceletViewController.swift; sourceTree = "<group>"; };
+		BD7C4F6223253BA70064562B /* RingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingViewController.swift; sourceTree = "<group>"; };
+		BD7C4F6523253EB10064562B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		BD7C4F692325414A0064562B /* metal.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metal.txt; sourceTree = "<group>"; };
+		BD7C4F6B232544040064562B /* metalfinish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metalfinish.txt; sourceTree = "<group>"; };
+		BD7C4F6D2325445D0064562B /* mainstoneshape.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainstoneshape.txt; sourceTree = "<group>"; };
+		BD7C4F6F232544EF0064562B /* sidestoneshape.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sidestoneshape.txt; sourceTree = "<group>"; };
+		BD7C4F7123255A840064562B /* UIImage+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+extension.swift"; sourceTree = "<group>"; };
+		BD7C4F74232584E40064562B /* jewelryPearlNacreThicknessSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlNacreThicknessSpin.txt; sourceTree = "<group>"; };
+		BD7C4F75232584E50064562B /* centerPearlSizeSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = centerPearlSizeSpin.txt; sourceTree = "<group>"; };
+		BD7C4F76232584E50064562B /* jewelryPearlShapeSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlShapeSpin.txt; sourceTree = "<group>"; };
+		BD7C4F77232584E50064562B /* sideStoneClaritySpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStoneClaritySpin.txt; sourceTree = "<group>"; };
+		BD7C4F78232584E50064562B /* jewelryUniformitySpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryUniformitySpin.txt; sourceTree = "<group>"; };
+		BD7C4F79232584E50064562B /* mainStoneCreationSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneCreationSpin.txt; sourceTree = "<group>"; };
+		BD7C4F7A232584E50064562B /* mainStoneCutSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneCutSpin.txt; sourceTree = "<group>"; };
+		BD7C4F7B232584E50064562B /* sideStoneColorSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStoneColorSpin.txt; sourceTree = "<group>"; };
+		BD7C4F7C232584E60064562B /* labSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labSpin.txt; sourceTree = "<group>"; };
+		BD7C4F7D232584E60064562B /* jewelryPearlBodyColorSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlBodyColorSpin.txt; sourceTree = "<group>"; };
+		BD7C4F7E232584E60064562B /* mainStoneClaritySpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneClaritySpin.txt; sourceTree = "<group>"; };
+		BD7C4F7F232584E60064562B /* jewelryPearlOvertoneSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlOvertoneSpin.txt; sourceTree = "<group>"; };
+		BD7C4F80232584E60064562B /* jewelryPearlLusterSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlLusterSpin.txt; sourceTree = "<group>"; };
+		BD7C4F81232584E60064562B /* mainStoneSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneSpin.txt; sourceTree = "<group>"; };
+		BD7C4F82232584E70064562B /* mainStoneColorSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneColorSpin.txt; sourceTree = "<group>"; };
+		BD7C4F83232584E70064562B /* jewelryPearlSurfaceMarkingsSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = jewelryPearlSurfaceMarkingsSpin.txt; sourceTree = "<group>"; };
+		BD7C4F84232584E70064562B /* appraisalIncludeSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = appraisalIncludeSpin.txt; sourceTree = "<group>"; };
+		BD7C4F85232584E70064562B /* braceletTypeSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = braceletTypeSpin.txt; sourceTree = "<group>"; };
+		BD7C4F86232584E70064562B /* metalSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metalSpin.txt; sourceTree = "<group>"; };
+		BD7C4F87232584E70064562B /* mainStoneCutQualitySpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mainStoneCutQualitySpin.txt; sourceTree = "<group>"; };
+		BD7C4F88232584E70064562B /* metalStampSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = metalStampSpin.txt; sourceTree = "<group>"; };
+		BD7C4F89232584E80064562B /* sideStoneCreationSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStoneCreationSpin.txt; sourceTree = "<group>"; };
+		BD7C4F8A232584E80064562B /* sideStoneCutSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStoneCutSpin.txt; sourceTree = "<group>"; };
+		BD7C4F8B232584E80064562B /* lengthInInchesSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lengthInInchesSpin.txt; sourceTree = "<group>"; };
+		BD7C4F8C232584E80064562B /* braceletResizableSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = braceletResizableSpin.txt; sourceTree = "<group>"; };
+		BD7C4F8D232584E80064562B /* sideStonesSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sideStonesSpin.txt; sourceTree = "<group>"; };
+		BD7C4F8E232584E80064562B /* braceletGenderSpin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = braceletGenderSpin.txt; sourceTree = "<group>"; };
+		BD958DB7232280C0001C5356 /* ShopifyApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShopifyApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD958DBA232280C1001C5356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD958DBC232280C1001C5356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD958DBF232280C1001C5356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD958DC1232280C3001C5356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD958DC4232280C3001C5356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD958DC6232280C3001C5356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD958DCD232281E6001C5356 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		BD958DD023228EDC001C5356 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BD958DD323228F71001C5356 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BD958DD623229BAB001C5356 /* viewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "viewController+extension.swift"; sourceTree = "<group>"; };
+		BD958DD923229D6A001C5356 /* myAlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myAlertDialog.swift; sourceTree = "<group>"; };
+		BD958DDB2322A02C001C5356 /* String+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+extension.swift"; sourceTree = "<group>"; };
+		BD958DDE2322AABA001C5356 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BD958DE02322ACA2001C5356 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BD958DE22322B27A001C5356 /* UserDefaultStandard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultStandard.swift; sourceTree = "<group>"; };
+		BD958DE52322EE31001C5356 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BD958DE72322F0B3001C5356 /* MyImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyImage.swift; sourceTree = "<group>"; };
+		BD958DE92322F0C5001C5356 /* Variants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variants.swift; sourceTree = "<group>"; };
+		BD958DEC2322FAE0001C5356 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		BD958DEE23231D8E001C5356 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BD958DF023232BE6001C5356 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD958DB4232280C0001C5356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4F585CC2469752232246B68 /* Pods_ShopifyApplication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B63633D6215A231BC631C4BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2B74A3E307AE21010A66148 /* Pods-ShopifyApplication.debug.xcconfig */,
+				555EC8AF0C700F5CE9B3F7A1 /* Pods-ShopifyApplication.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD256C3B23283D07003EA03E /* CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BD256C3C23283D1E003EA03E /* ImageCollectionViewCell.swift */,
+			);
+			path = CollectionViewCell;
+			sourceTree = "<group>";
+		};
+		BD7909842325B8B7005729D0 /* ring */ = {
+			isa = PBXGroup;
+			children = (
+				BD7909BB2325BE16005729D0 /* subring */,
+				BD79099C2325B8D0005729D0 /* appraisalIncludedDD.txt */,
+				BD7909882325B8CD005729D0 /* centerPearlSizeDD.txt */,
+				BD7909862325B8CC005729D0 /* jewelryPearlBodyDD.txt */,
+				BD79098F2325B8CE005729D0 /* jewelryPearlLusterDD.txt */,
+				BD7909892325B8CD005729D0 /* jewelryPearlNacreThickness.txt */,
+				BD79098C2325B8CD005729D0 /* jewelryPearlOverDD.txt */,
+				BD7909982325B8CF005729D0 /* jewelryPearlShapeDD.txt */,
+				BD7909852325B8CC005729D0 /* jewelryPearlSurfaceDD.txt */,
+				BD79098B2325B8CD005729D0 /* jewelryUniformityDD.txt */,
+				BD79099B2325B8CF005729D0 /* labDD.txt */,
+				BD7909902325B8CE005729D0 /* mainStoneClarityDD.txt */,
+				BD79099E2325B8D0005729D0 /* mainStoneColorDD.txt */,
+				BD7909872325B8CD005729D0 /* mainStoneCreationDD.txt */,
+				BD7909922325B8CE005729D0 /* mainStoneCutDD.txt */,
+				BD79099D2325B8D0005729D0 /* mainStoneCutQualityDD.txt */,
+				BD7909972325B8CF005729D0 /* mainStoneDD.txt */,
+				BD79098A2325B8CD005729D0 /* metalDD.txt */,
+				BD7909992325B8CF005729D0 /* metalStampDD.txt */,
+				BD79099F2325B8D0005729D0 /* ringGenderDD.txt */,
+				BD7909912325B8CE005729D0 /* ringResizableDD.txt */,
+				BD7909962325B8CF005729D0 /* ringSizeDD.txt */,
+				BD79098E2325B8CE005729D0 /* ringStyleDD.txt */,
+				BD7909952325B8CF005729D0 /* sideStoneClarityDD.txt */,
+				BD79098D2325B8CD005729D0 /* sideStoneColorDD.txt */,
+				BD7909932325B8CE005729D0 /* sideStoneCreationDD.txt */,
+				BD79099A2325B8CF005729D0 /* sideStoneCutDD.txt */,
+				BD7909942325B8CE005729D0 /* sideStonesDD.txt */,
+			);
+			path = ring;
+			sourceTree = "<group>";
+		};
+		BD7909BB2325BE16005729D0 /* subring */ = {
+			isa = PBXGroup;
+			children = (
+				BD7909BF2325BE48005729D0 /* colorstone_subring.txt */,
+				BD7909BD2325BE48005729D0 /* engagement_subring.txt */,
+				BD7909BC2325BE48005729D0 /* engagementset_subring.txt */,
+				BD7909C02325BE48005729D0 /* fancy_subring.txt */,
+				BD7909BE2325BE48005729D0 /* mensring_subring.txt */,
+				BD7909C12325BE49005729D0 /* weddingbandset_subring.txt */,
+			);
+			path = subring;
+			sourceTree = "<group>";
+		};
+		BD7C4F5D232500900064562B /* contain */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C4F5E232500C30064562B /* DefaultViewController.swift */,
+				BD7C4F60232538980064562B /* BraceletViewController.swift */,
+				BD7C4F6223253BA70064562B /* RingViewController.swift */,
+			);
+			path = contain;
+			sourceTree = "<group>";
+		};
+		BD7C4F6423253EA50064562B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C4F6523253EB10064562B /* Helper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BD7C4F67232540FB0064562B /* info */ = {
+			isa = PBXGroup;
+			children = (
+				BD7909842325B8B7005729D0 /* ring */,
+				BD7C4F73232584D40064562B /* bracelet */,
+				BD7C4F68232541030064562B /* default */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
+		BD7C4F68232541030064562B /* default */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C4F692325414A0064562B /* metal.txt */,
+				BD7C4F6B232544040064562B /* metalfinish.txt */,
+				BD7C4F6D2325445D0064562B /* mainstoneshape.txt */,
+				BD7C4F6F232544EF0064562B /* sidestoneshape.txt */,
+			);
+			path = default;
+			sourceTree = "<group>";
+		};
+		BD7C4F73232584D40064562B /* bracelet */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C4F84232584E70064562B /* appraisalIncludeSpin.txt */,
+				BD7C4F8E232584E80064562B /* braceletGenderSpin.txt */,
+				BD7C4F8C232584E80064562B /* braceletResizableSpin.txt */,
+				BD7C4F85232584E70064562B /* braceletTypeSpin.txt */,
+				BD7C4F75232584E50064562B /* centerPearlSizeSpin.txt */,
+				BD7C4F7D232584E60064562B /* jewelryPearlBodyColorSpin.txt */,
+				BD7C4F80232584E60064562B /* jewelryPearlLusterSpin.txt */,
+				BD7C4F74232584E40064562B /* jewelryPearlNacreThicknessSpin.txt */,
+				BD7C4F7F232584E60064562B /* jewelryPearlOvertoneSpin.txt */,
+				BD7C4F76232584E50064562B /* jewelryPearlShapeSpin.txt */,
+				BD7C4F83232584E70064562B /* jewelryPearlSurfaceMarkingsSpin.txt */,
+				BD7C4F78232584E50064562B /* jewelryUniformitySpin.txt */,
+				BD7C4F7C232584E60064562B /* labSpin.txt */,
+				BD7C4F8B232584E80064562B /* lengthInInchesSpin.txt */,
+				BD7C4F7E232584E60064562B /* mainStoneClaritySpin.txt */,
+				BD7C4F82232584E70064562B /* mainStoneColorSpin.txt */,
+				BD7C4F79232584E50064562B /* mainStoneCreationSpin.txt */,
+				BD7C4F87232584E70064562B /* mainStoneCutQualitySpin.txt */,
+				BD7C4F7A232584E50064562B /* mainStoneCutSpin.txt */,
+				BD7C4F81232584E60064562B /* mainStoneSpin.txt */,
+				BD7C4F86232584E70064562B /* metalSpin.txt */,
+				BD7C4F88232584E70064562B /* metalStampSpin.txt */,
+				BD7C4F77232584E50064562B /* sideStoneClaritySpin.txt */,
+				BD7C4F7B232584E50064562B /* sideStoneColorSpin.txt */,
+				BD7C4F89232584E80064562B /* sideStoneCreationSpin.txt */,
+				BD7C4F8A232584E80064562B /* sideStoneCutSpin.txt */,
+				BD7C4F8D232584E80064562B /* sideStonesSpin.txt */,
+			);
+			path = bracelet;
+			sourceTree = "<group>";
+		};
+		BD958DAE232280C0001C5356 = {
+			isa = PBXGroup;
+			children = (
+				BD958DB9232280C0001C5356 /* ShopifyApplication */,
+				BD958DB8232280C0001C5356 /* Products */,
+				B63633D6215A231BC631C4BF /* Pods */,
+				BFB672D30AABB81C0A59EF90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD958DB8232280C0001C5356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD958DB7232280C0001C5356 /* ShopifyApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD958DB9232280C0001C5356 /* ShopifyApplication */ = {
+			isa = PBXGroup;
+			children = (
+				BD256C3B23283D07003EA03E /* CollectionViewCell */,
+				BD7C4F67232540FB0064562B /* info */,
+				BD7C4F6423253EA50064562B /* Helper */,
+				BD958DEB2322FAC1001C5356 /* TableViewCell */,
+				BD958DE42322EE25001C5356 /* Model */,
+				BD958DDD2322AAAD001C5356 /* Constants */,
+				BD958DD823229D55001C5356 /* customDialogs */,
+				BD958DD523229B87001C5356 /* extensions */,
+				BD958DCC232281C7001C5356 /* viewcontroller */,
+				BD958DBA232280C1001C5356 /* AppDelegate.swift */,
+				BD958DBC232280C1001C5356 /* ViewController.swift */,
+				BD958DBE232280C1001C5356 /* Main.storyboard */,
+				BD958DC1232280C3001C5356 /* Assets.xcassets */,
+				BD958DC3232280C3001C5356 /* LaunchScreen.storyboard */,
+				BD958DC6232280C3001C5356 /* Info.plist */,
+				BD958DE02322ACA2001C5356 /* GoogleService-Info.plist */,
+			);
+			path = ShopifyApplication;
+			sourceTree = "<group>";
+		};
+		BD958DCC232281C7001C5356 /* viewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				BD7C4F5D232500900064562B /* contain */,
+				BD958DD223228F5F001C5356 /* main */,
+				BD958DCF23228EC4001C5356 /* auth */,
+			);
+			path = viewcontroller;
+			sourceTree = "<group>";
+		};
+		BD958DCF23228EC4001C5356 /* auth */ = {
+			isa = PBXGroup;
+			children = (
+				BD958DCD232281E6001C5356 /* SignInViewController.swift */,
+				BD958DD023228EDC001C5356 /* SignUpViewController.swift */,
+			);
+			path = auth;
+			sourceTree = "<group>";
+		};
+		BD958DD223228F5F001C5356 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				BD958DD323228F71001C5356 /* HomeViewController.swift */,
+				BD958DEE23231D8E001C5356 /* DetailViewController.swift */,
+				BD958DF023232BE6001C5356 /* AddProductViewController.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		BD958DD523229B87001C5356 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BD958DD623229BAB001C5356 /* viewController+extension.swift */,
+				BD958DDB2322A02C001C5356 /* String+extension.swift */,
+				BD7C4F7123255A840064562B /* UIImage+extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		BD958DD823229D55001C5356 /* customDialogs */ = {
+			isa = PBXGroup;
+			children = (
+				BD958DD923229D6A001C5356 /* myAlertDialog.swift */,
+			);
+			path = customDialogs;
+			sourceTree = "<group>";
+		};
+		BD958DDD2322AAAD001C5356 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BD958DDE2322AABA001C5356 /* Constants.swift */,
+				BD958DE22322B27A001C5356 /* UserDefaultStandard.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		BD958DE42322EE25001C5356 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD958DE52322EE31001C5356 /* Product.swift */,
+				BD958DE72322F0B3001C5356 /* MyImage.swift */,
+				BD958DE92322F0C5001C5356 /* Variants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BD958DEB2322FAC1001C5356 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BD958DEC2322FAE0001C5356 /* ProductTableViewCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		BFB672D30AABB81C0A59EF90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7541ED26DFCD42D7082E24A4 /* Pods_ShopifyApplication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD958DB6232280C0001C5356 /* ShopifyApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD958DC9232280C3001C5356 /* Build configuration list for PBXNativeTarget "ShopifyApplication" */;
+			buildPhases = (
+				A11A89F98C42B8B690A00AE2 /* [CP] Check Pods Manifest.lock */,
+				BD958DB3232280C0001C5356 /* Sources */,
+				BD958DB4232280C0001C5356 /* Frameworks */,
+				BD958DB5232280C0001C5356 /* Resources */,
+				A1579B62F67DD1B7DABC4749 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShopifyApplication;
+			productName = ShopifyApplication;
+			productReference = BD958DB7232280C0001C5356 /* ShopifyApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD958DAF232280C0001C5356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = puma;
+				TargetAttributes = {
+					BD958DB6232280C0001C5356 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = BD958DB2232280C0001C5356 /* Build configuration list for PBXProject "ShopifyApplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD958DAE232280C0001C5356;
+			productRefGroup = BD958DB8232280C0001C5356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD958DB6232280C0001C5356 /* ShopifyApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD958DB5232280C0001C5356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD7C4F6A2325414A0064562B /* metal.txt in Resources */,
+				BD7909A62325B8D0005729D0 /* jewelryUniformityDD.txt in Resources */,
+				BD7909AE2325B8D0005729D0 /* sideStoneCreationDD.txt in Resources */,
+				BD7C4F99232584E80064562B /* mainStoneClaritySpin.txt in Resources */,
+				BD7909A12325B8D0005729D0 /* jewelryPearlBodyDD.txt in Resources */,
+				BD7909C62325BE49005729D0 /* fancy_subring.txt in Resources */,
+				BD7C4FA2232584E80064562B /* mainStoneCutQualitySpin.txt in Resources */,
+				BD7909B42325B8D0005729D0 /* metalStampDD.txt in Resources */,
+				BD7909B92325B8D0005729D0 /* mainStoneColorDD.txt in Resources */,
+				BD7C4F6E2325445E0064562B /* mainstoneshape.txt in Resources */,
+				BD7909B22325B8D0005729D0 /* mainStoneDD.txt in Resources */,
+				BD7909B12325B8D0005729D0 /* ringSizeDD.txt in Resources */,
+				BD7C4F94232584E80064562B /* mainStoneCreationSpin.txt in Resources */,
+				BD7909AA2325B8D0005729D0 /* jewelryPearlLusterDD.txt in Resources */,
+				BD7909B52325B8D0005729D0 /* sideStoneCutDD.txt in Resources */,
+				BD7909C72325BE49005729D0 /* weddingbandset_subring.txt in Resources */,
+				BD7C4FA3232584E80064562B /* metalStampSpin.txt in Resources */,
+				BD958DC5232280C3001C5356 /* LaunchScreen.storyboard in Resources */,
+				BD7C4FA8232584E80064562B /* sideStonesSpin.txt in Resources */,
+				BD958DE12322ACA3001C5356 /* GoogleService-Info.plist in Resources */,
+				BD7C4FA1232584E80064562B /* metalSpin.txt in Resources */,
+				BD7909B62325B8D0005729D0 /* labDD.txt in Resources */,
+				BD7C4FA0232584E80064562B /* braceletTypeSpin.txt in Resources */,
+				BD7C4F8F232584E80064562B /* jewelryPearlNacreThicknessSpin.txt in Resources */,
+				BD7C4F6C232544040064562B /* metalfinish.txt in Resources */,
+				BD7909BA2325B8D0005729D0 /* ringGenderDD.txt in Resources */,
+				BD7909A22325B8D0005729D0 /* mainStoneCreationDD.txt in Resources */,
+				BD7C4FA4232584E80064562B /* sideStoneCreationSpin.txt in Resources */,
+				BD7C4F9A232584E80064562B /* jewelryPearlOvertoneSpin.txt in Resources */,
+				BD958DC2232280C3001C5356 /* Assets.xcassets in Resources */,
+				BD7C4FA5232584E80064562B /* sideStoneCutSpin.txt in Resources */,
+				BD7C4F93232584E80064562B /* jewelryUniformitySpin.txt in Resources */,
+				BD7909A52325B8D0005729D0 /* metalDD.txt in Resources */,
+				BD7C4FA6232584E80064562B /* lengthInInchesSpin.txt in Resources */,
+				BD7C4F90232584E80064562B /* centerPearlSizeSpin.txt in Resources */,
+				BD7909B02325B8D0005729D0 /* sideStoneClarityDD.txt in Resources */,
+				BD958DC0232280C1001C5356 /* Main.storyboard in Resources */,
+				BD7909AC2325B8D0005729D0 /* ringResizableDD.txt in Resources */,
+				BD7C4FA7232584E80064562B /* braceletResizableSpin.txt in Resources */,
+				BD7909C42325BE49005729D0 /* mensring_subring.txt in Resources */,
+				BD7909C52325BE49005729D0 /* colorstone_subring.txt in Resources */,
+				BD7C4F96232584E80064562B /* sideStoneColorSpin.txt in Resources */,
+				BD7C4F9E232584E80064562B /* jewelryPearlSurfaceMarkingsSpin.txt in Resources */,
+				BD7C4F9F232584E80064562B /* appraisalIncludeSpin.txt in Resources */,
+				BD7C4F97232584E80064562B /* labSpin.txt in Resources */,
+				BD7C4F91232584E80064562B /* jewelryPearlShapeSpin.txt in Resources */,
+				BD7909C22325BE49005729D0 /* engagementset_subring.txt in Resources */,
+				BD7909AF2325B8D0005729D0 /* sideStonesDD.txt in Resources */,
+				BD7C4FA9232584E80064562B /* braceletGenderSpin.txt in Resources */,
+				BD7C4F98232584E80064562B /* jewelryPearlBodyColorSpin.txt in Resources */,
+				BD7909A42325B8D0005729D0 /* jewelryPearlNacreThickness.txt in Resources */,
+				BD7909B32325B8D0005729D0 /* jewelryPearlShapeDD.txt in Resources */,
+				BD7909B72325B8D0005729D0 /* appraisalIncludedDD.txt in Resources */,
+				BD7909B82325B8D0005729D0 /* mainStoneCutQualityDD.txt in Resources */,
+				BD7909A32325B8D0005729D0 /* centerPearlSizeDD.txt in Resources */,
+				BD7909A82325B8D0005729D0 /* sideStoneColorDD.txt in Resources */,
+				BD7C4F9C232584E80064562B /* mainStoneSpin.txt in Resources */,
+				BD7909A02325B8D0005729D0 /* jewelryPearlSurfaceDD.txt in Resources */,
+				BD7C4F92232584E80064562B /* sideStoneClaritySpin.txt in Resources */,
+				BD7909C32325BE49005729D0 /* engagement_subring.txt in Resources */,
+				BD7909A92325B8D0005729D0 /* ringStyleDD.txt in Resources */,
+				BD7C4F70232544EF0064562B /* sidestoneshape.txt in Resources */,
+				BD7C4F9D232584E80064562B /* mainStoneColorSpin.txt in Resources */,
+				BD7909AB2325B8D0005729D0 /* mainStoneClarityDD.txt in Resources */,
+				BD7909A72325B8D0005729D0 /* jewelryPearlOverDD.txt in Resources */,
+				BD7909AD2325B8D0005729D0 /* mainStoneCutDD.txt in Resources */,
+				BD7C4F9B232584E80064562B /* jewelryPearlLusterSpin.txt in Resources */,
+				BD7C4F95232584E80064562B /* mainStoneCutSpin.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A11A89F98C42B8B690A00AE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShopifyApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1579B62F67DD1B7DABC4749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopifyApplication/Pods-ShopifyApplication-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ShopifyApplication/Pods-ShopifyApplication-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShopifyApplication/Pods-ShopifyApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD958DB3232280C0001C5356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD958DDC2322A02C001C5356 /* String+extension.swift in Sources */,
+				BD7C4F5F232500C30064562B /* DefaultViewController.swift in Sources */,
+				BD958DE82322F0B3001C5356 /* MyImage.swift in Sources */,
+				BD958DF123232BE6001C5356 /* AddProductViewController.swift in Sources */,
+				BD958DD423228F71001C5356 /* HomeViewController.swift in Sources */,
+				BD958DBD232280C1001C5356 /* ViewController.swift in Sources */,
+				BD958DE32322B27A001C5356 /* UserDefaultStandard.swift in Sources */,
+				BD7C4F6623253EB10064562B /* Helper.swift in Sources */,
+				BD958DD723229BAB001C5356 /* viewController+extension.swift in Sources */,
+				BD958DE62322EE31001C5356 /* Product.swift in Sources */,
+				BD958DBB232280C1001C5356 /* AppDelegate.swift in Sources */,
+				BD958DD123228EDC001C5356 /* SignUpViewController.swift in Sources */,
+				BD256C3D23283D1E003EA03E /* ImageCollectionViewCell.swift in Sources */,
+				BD958DED2322FAE0001C5356 /* ProductTableViewCell.swift in Sources */,
+				BD7C4F6323253BA70064562B /* RingViewController.swift in Sources */,
+				BD7C4F61232538980064562B /* BraceletViewController.swift in Sources */,
+				BD958DDA23229D6A001C5356 /* myAlertDialog.swift in Sources */,
+				BD958DCE232281E6001C5356 /* SignInViewController.swift in Sources */,
+				BD958DEF23231D8E001C5356 /* DetailViewController.swift in Sources */,
+				BD7C4F7223255A840064562B /* UIImage+extension.swift in Sources */,
+				BD958DDF2322AABA001C5356 /* Constants.swift in Sources */,
+				BD958DEA2322F0C5001C5356 /* Variants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD958DBE232280C1001C5356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD958DBF232280C1001C5356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD958DC3232280C3001C5356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD958DC4232280C3001C5356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD958DC7232280C3001C5356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD958DC8232280C3001C5356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD958DCA232280C3001C5356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2B74A3E307AE21010A66148 /* Pods-ShopifyApplication.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6STFVPY5A;
+				INFOPLIST_FILE = ShopifyApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shopifyApplication.harrychadent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD958DCB232280C3001C5356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555EC8AF0C700F5CE9B3F7A1 /* Pods-ShopifyApplication.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S6STFVPY5A;
+				INFOPLIST_FILE = ShopifyApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shopifyApplication.harrychadent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD958DB2232280C0001C5356 /* Build configuration list for PBXProject "ShopifyApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD958DC7232280C3001C5356 /* Debug */,
+				BD958DC8232280C3001C5356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD958DC9232280C3001C5356 /* Build configuration list for PBXNativeTarget "ShopifyApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD958DCA232280C3001C5356 /* Debug */,
+				BD958DCB232280C3001C5356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD958DAF232280C0001C5356 /* Project object */;
+}
